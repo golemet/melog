@@ -29,4 +29,4 @@ def procesar_cadena():
 # Ejecutar la aplicación
 if __name__ == '__main__':
     # Se ejecuta en 0.0.0.0 para ser accesible fuera del localhost del contenedor
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=9999)
